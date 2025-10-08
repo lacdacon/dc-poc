@@ -1,7 +1,7 @@
 # 📚 Data Concierge Proof of Concept
 ## RAG Chatbot System with OpenAI & Weaviate
 
-A Retrieval-Augmented Generation (RAG) system built as a Proof Od Concept (POC) for the CAPS' Data Concierge Project. This version features **a specialized chatbot** that semantically queries documentation from the [Dark Energy Survey](https://www.darkenergysurvey.org/) (DES) knowledge base. The CAPS is the [Center for AstroPhysical Surveys](https://caps.ncsa.illinois.edu/) at the [University of Illinois](https://www.illinois.edu)' [National Center for Supercomputing Applications](https://ncsa.illinois.edu/).
+A Retrieval-Augmented Generation (RAG) system built as a Proof Of Concept (POC) for the CAPS' Data Concierge Project. This version features **a specialized chatbot** that semantically queries documentation from the [Dark Energy Survey](https://www.darkenergysurvey.org/) (DES) knowledge base. The CAPS is the [Center for AstroPhysical Surveys](https://caps.ncsa.illinois.edu/) at the [University of Illinois](https://www.illinois.edu)' [National Center for Supercomputing Applications](https://ncsa.illinois.edu/).
 
 Powered by **OpenAI GPT-4.1**, **Weaviate** vector database, and a clean **Streamlit UI**.
 
@@ -90,12 +90,6 @@ You’ll be able to:
 - See answers with **source citations**.
 ---
 
-## 🧪 Notes
-
-- This app is a **prototype** for showcasing search across evaluation reports using RAG.
-- Additional datasets or countries can be added by repeating the ingestion process with new document folders.
-
----
 
 ## 📫 Contact
 
