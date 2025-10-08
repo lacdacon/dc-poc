@@ -10,11 +10,24 @@
 *.userosscache
 *.sln.docstates
 *.env
-*.env.local
+*.env.*
 *.DS_Store
+
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Data (particular to this project)
+src/data/documents/*.pdf
+src/data/json/*.json
+
+# Streamlit
+.streamlit/
 
 # Mono auto generated files
 mono_crash.*
@@ -343,7 +356,12 @@ paket-files/
 
 # Python Tools for Visual Studio (PTVS)
 **/__pycache__/
+__pycache__/
 *.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
 
 # Cake - Uncomment if you are using it
 #tools/**
@@ -405,6 +423,9 @@ FodyWeavers.xsd
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
+.idea/
+*.swp
+*.swo
 
 # Local History for Visual Studio Code
 .history/

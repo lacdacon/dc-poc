@@ -1,0 +1,21 @@
+# Core
+python-dotenv==1.0.1
+streamlit==1.41.1
+
+# OpenAI & LangChain (compatible versions)
+openai>=1.59.0
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-core==0.2.40
+langchain-openai==0.1.25
+langchain-text-splitters==0.2.4
+
+# Vector Store
+weaviate-client==3.26.7
+
+# Document Processing
+pypdf==5.1.0
+
+# Utilities
+requests==2.32.3
+tenacity==8.5.0

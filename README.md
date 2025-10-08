@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 4. **Set up environment variables**
 
-Create a `.env` file with the following:
+Create a `.env` file with the below information. This assumes you have set up previsouly a Weaviate instance where you can connect and create your vector data base.
 
 ```bash
 OPENAI_API_KEY=your_openai_api_key
@@ -63,13 +63,13 @@ WEAVIATE_API_KEY=optional_if_required_from_your_weaviate_db
 
 ## 📥 Ingest Reports
 
-1. If you want to test this yourself with your own data, place your PDF documents in the following folder:
+1. We have provided the documents to test out this ChatBot; but if you want to test it with your own data, place your own PDF documents in the following folder:
    - `src/data/documents`
 
 2. Run the document loader script:
 
 ```bash
-python src/weaviate_setup.py --dir documents
+python src/weaviate_setup.py
 ```
 
 Use `--reset` to clear and rebuild the index.
